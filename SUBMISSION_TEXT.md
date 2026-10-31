@@ -2,8 +2,8 @@
 
 - **Project name:** DeadLine BBS
 - **Category:** Resurrection
-- **App URL:** _(GitHub Pages URL — fill after deploy)_
-- **GitHub repo:** https://github.com/alexlee-builds/deadline-bbs _(fill after push)_
+- **App URL:** https://alexlee-builds.github.io/deadline-bbs/
+- **GitHub repo:** https://github.com/alexlee-builds/deadline-bbs
 - **YouTube demo:** _(fill after upload)_
 
 ## Elevator pitch

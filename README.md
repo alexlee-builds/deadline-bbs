@@ -13,6 +13,8 @@ file library, and a SysOp who is *still online*.
 
 **Kiroween 2026 · Category: Resurrection**
 
+**▶ Live app: https://alexlee-builds.github.io/deadline-bbs/** — click DIAL and pick a handle. Sound on for the full handshake.
+
 ## Features
 
 - **Modem boot sequence** — synthesized WebAudio dial tone, DTMF digits,
