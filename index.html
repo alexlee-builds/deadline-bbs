@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DeadLine BBS — Est. 1986 · Still Online</title>
+<meta name="description" content="A haunted 1986 dial-up bulletin board system, resurrected in your browser. A Kiroween 2026 entry (Resurrection).">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <p class="masthead-line">▓▒░ DEADLINE BBS ░▒▓</p>
+    <p class="masthead-sub">NODE 1 · 555-1986 · 2400 BAUD · ONLINE SINCE OCT 31, 1986</p>
+  </header>
+
+  <main>
+    <section id="crt" class="crt" aria-label="BBS terminal">
+      <div class="crt-screen">
+        <div id="term-output" class="term-output" role="log" aria-live="polite" aria-label="Terminal output"></div>
+        <div id="choices" class="choices" role="group" aria-label="Choices"></div>
+        <form id="term-form" class="term-form" autocomplete="off">
+          <label class="prompt-label" for="term-input"><span id="prompt-text">HANDLE:</span></label>
+          <input id="term-input" class="term-input" type="text" maxlength="300"
+                 aria-label="Terminal input" placeholder="press CONNECT to dial in">
+          <button type="submit" class="btn btn-send">⏎ SEND</button>
+        </form>
+      </div>
+      <div class="crt-bezel" aria-hidden="true">DEADLINE-86 · PHOSPHORTRON CRT · CH-3</div>
+    </section>
+
+    <nav class="toolbar" aria-label="Terminal controls">
+      <button type="button" id="btn-connect" class="btn btn-connect">☎ CONNECT</button>
+      <button type="button" id="btn-skip" class="btn" disabled>⏭ SKIP BOOT</button>
+      <button type="button" id="btn-sound" class="btn" aria-pressed="true">🔊 SOUND: ON</button>
+      <button type="button" id="btn-flicker" class="btn" aria-pressed="true">✨ FLICKER: ON</button>
+    </nav>
+
+    <nav class="quickmenu" aria-label="BBS quick menu">
+      <span class="quickmenu-label">QUICK MENU:</span>
+      <button type="button" class="btn btn-qm" data-goto="board">[1] Message Board</button>
+      <button type="button" class="btn btn-qm" data-goto="quest">[2] Graveyard Quest</button>
+      <button type="button" class="btn btn-qm" data-goto="files">[3] File Library</button>
+      <button type="button" class="btn btn-qm" data-goto="chat">[4] Chat w/ SysOp</button>
+      <button type="button" class="btn btn-qm" data-goto="about">[5] About / Help</button>
+      <button type="button" class="btn btn-qm" data-goto="logoff">[0] Logoff</button>
+    </nav>
+  </main>
+
+  <footer class="colophon">
+    <p>DeadLine BBS — a Kiroween 2026 resurrection. No accounts, no servers:
+       the board lives in your browser (posts &amp; settings persist locally).
+       Built spec-first with Kiro — see <em>/.kiro</em> in the repo.</p>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

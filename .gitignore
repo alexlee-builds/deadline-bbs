@@ -1,0 +1,8 @@
+# DeadLine BBS — minimal ignores.
+# NOTE: the spec/steering/hooks directory at the repo root MUST stay
+# committed (Kiroween 2026 rules). Never add it to this file.
+
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
